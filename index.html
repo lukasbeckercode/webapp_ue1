@@ -2,14 +2,16 @@
 <html lang="de">
 <head>
     <title>Notarztst&uuml;tzpunkt Mariazell</title>
+    <link href="style.css" rel="stylesheet"/>
+    <link href="revenge.css" rel="stylesheet">
 </head>
 <body>
 <h1>Das NEF Mariazell</h1>
 <h2 id="intro">Intro</h2>
 <p>
     Der Notarzt-St&uuml;tzpunkt in Mariazell wird sein 2012 mit einem <strong>NEF</strong> (Notarzteinsatzfahrzeug)
-    betrieben. <br />
-    <img src="img/nef.jpg" alt="Das NEF Mariazell" width="360" height="270"/> <br/>
+    betrieben. <br/>
+    <img alt="Das NEF Mariazell" height="270" src="img/nef.jpg" width="360"/> <br/>
     Dieses wird besetzt durch: <br/>
 </p>
 <ul>
@@ -18,74 +20,80 @@
     <li>Azubi(RS/NFS/Arzt - optional)</li>
 </ul>
 <h2>Fallzahlen aktuell</h2>
+<div class="link_table">
 <p>
-    Im September 2021 wurden <strong>34</strong> Eins&auml;tze gefahren. Diese gliedern sich laut NACA-Score wie folgend auf:
+    <a href="https://en.wikipedia.org/wiki/NACA_score">
+    Im September 2021 wurden <strong>34</strong> Eins&auml;tze gefahren. Diese gliedern sich laut NACA-Score wie folgend
+    auf:</a>
 </p>
 <ol>
     <li>
-        <ul>
+        <ul class="list">
             <li>NACA I</li>
             <li>Geringf&uuml;gige Verletzung</li>
             <li>3 mal</li>
         </ul>
     </li>
     <li>
-        <ul>
+        <ul class="list">
             <li>NACA II</li>
             <li>Leichte bis m&auml;&szlig;ig schwere Funktionsst&ouml;rung</li>
             <li>6 mal</li>
         </ul>
     </li>
     <li>
-        <ul>
+        <ul class="list">
             <li>NACA III</li>
             <li>M&auml;&szlig;ige bis schwere, aber nicht lebensbedrohliche St&ouml;rung</li>
             <li>14 mal</li>
         </ul>
     </li>
     <li>
-        <ul>
+        <ul class="list">
             <li>NACA IV</li>
-            <li>Schwere St&ouml;rung, bei der die kurzfristige Entwicklung einer Lebensbedrohung nicht ausgeschlossen werden kann</li>
+            <li>Schwere St&ouml;rung, bei der die kurzfristige Entwicklung einer Lebensbedrohung nicht ausgeschlossen
+                werden kann
+            </li>
             <li>8 mal</li>
         </ul>
     </li>
     <li>
-        <ul>
+        <ul class="list">
             <li>NACA V</li>
             <li>Akute Lebensgefahr</li>
             <li>0 mal</li>
         </ul>
     </li>
     <li>
-        <ul>
+        <ul class="list">
             <li>NACA VI</li>
             <li>Atem- und/oder Kreislaufstillstand</li>
             <li>0 mal</li>
         </ul>
     </li>
     <li>
-        <ul>
+        <ul class="list">
             <li>NACA VII</li>
             <li>T&ouml;dliche Verletzung oder Erkrankung</li>
             <li>1 mal</li>
         </ul>
     </li>
 </ol>
+</div>
 <h2>Kontaktformular</h2>
 <form action="action.php" method="post">
     <div>
         <label for="name">Name</label>
-        <input type="text" name="name" id="name"/>
+        <input id="name" name="name" type="text"/>
     </div>
 
     <div>
         <label for="first_name">Vorname</label>
-        <input type="text" name="first_name" id="first_name"/>
+        <input id="first_name" name="first_name" type="text"/>
     </div>
     <div>
         <label for="email">Email</label>
-        <input type="email" name="email" id="email"/>
+        <input id="email" name="email" type="email"/>
     </div>
 
     <div>

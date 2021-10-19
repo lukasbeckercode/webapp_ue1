@@ -1,0 +1,59 @@
+h1{
+    font-weight: bold;
+    font-family: Verdana, sans-serif;
+}
+h2{
+    font-weight: bold;
+    font-family: Courier, sans-serif;
+}
+body {
+    background-color: #ff9966;
+    font-family: Georgia, serif;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+p{
+    background-color: darkorange;
+}
+
+.list{
+    list-style-image: url("img/rk.png");
+    line-height: 35px;
+}
+
+.link_table {
+    max-width: 30em;
+    padding: 1em;
+    position: relative;
+}
+
+.link_table a {
+    color: hsl(20, 80%, 40%);
+}
+
+.link_table a:focus,
+.link_table a:hover {
+    color: inherit;
+    background: hsl(30, 100%, 47%);
+}
+
+.link_table a::before,
+.link_table a::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.link_table a::before {
+    border: thin solid;
+    background: inherit;
+    z-index: -1;
+}
+
+.link_table :last-child {
+    margin-bottom: 0;
+}
