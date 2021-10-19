@@ -57,3 +57,16 @@ p{
 .link_table :last-child {
     margin-bottom: 0;
 }
+
+input{
+    width: 30%;
+    padding: 6px;
+    line-height: 20px;
+}
+
+input[type=submit]{
+    line-height: 20px;
+    color: #FFFFFF;
+    font-size: larger;
+    background-color: chocolate;
+}
